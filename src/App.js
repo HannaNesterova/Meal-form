@@ -35,9 +35,9 @@ const updateDay =(myUpdateMeal) => {
 }
 
 const getActiveMeal = () => {
-  return text.find(({id}) => id === selectedDay) // если убрать ID то работает форма,но это же не верно
+  return text.find(({id}) => id === selectedDay) /// если убрать ID то работает форма,но это же не верно
 }
-
+    
   return (
     <div className='App'>
       <MyList handleAddBtn={handleAddBtn}
