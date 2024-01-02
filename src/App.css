@@ -1,0 +1,83 @@
+body{
+    background: url(food.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    color: white;
+    background-color: burlywood;
+    padding: 5px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:50px auto ;
+}
+
+.button-add{
+    background-color: rgb(61, 104, 156);
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    color: white;
+}
+
+.button-remove{
+    background-color: rgb(118, 149, 40);
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    color: white;
+    margin-left: 20px;
+}
+
+.App{
+    display: flex;
+    justify-content: space-around;
+}
+
+.whole-plan{
+    width: 70%;
+    height: 100vh;
+}
+.myInput{
+    width: 70%;
+    height: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    display: block;
+    margin-top: 30px;
+}
+textarea {
+    display: block;
+    border: 1px solid black;
+    width: 70%;
+    margin-top: 30px;
+    height: 200px;
+    border-radius: 20px;
+}
+.textMeal{
+    font-size: 20px;
+    color: bl
+}
+
+.selected{
+background-color: rgb(247, 234, 59);
+}
+
+.nonselected{
+background-color: rgb(250, 247, 216);
+}
+
+.notSelectedDay{
+    color: rgb(9, 40, 68);
+    font-size: 25px;
+    background-color: rgb(255, 255, 0);
+    height: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
