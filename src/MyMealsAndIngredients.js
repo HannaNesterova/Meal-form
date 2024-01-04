@@ -11,7 +11,6 @@ function MyMealsAndIngredients({selectedDay, updateDay}){
 
     if(!selectedDay) return <p className="notSelectedDay">Plan your week ahead of time!</p>
    
-    
     return(
         <div className="whole-plan">
             <div className="meal-editing">

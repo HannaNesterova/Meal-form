@@ -10,12 +10,12 @@ function MyList({handleAddBtn, text, deleteDay, selectedDay, setSelectedDay}){
                 </div>
 
                 <div>
-                {text.map((meal, id) => (
+                {text.map(({title, id}) => (
                     <div key={id} 
                     className={`meal ${id === selectedDay ? "selected" : "nonselected"}`}
                     onClick={() => setSelectedDay(id)}>
-                        <p  className="textMeal">{meal.title}</p>
-                        <button className="button-remove" onClick={() => deleteDay(meal.id)}>Delete</button>
+                        <p  className="textMeal">{title}</p>
+                        <button className="button-remove" onClick={() => deleteDay(id)}>Delete</button>
                     </div>
                     ))}
             </div>
